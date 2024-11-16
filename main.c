@@ -44,7 +44,7 @@ int main() {
                     } else if (votes_for_c > votes_for_a && votes_for_c > votes_for_b) {
                         printf("c\n");
                     } else {
-                        printf("There is a tie between the representatives. Revoting needed.\n");
+                        printf("\nThere is a tie between the representatives. Revoting needed.\n");
                     }
                     break;
                 } else {
